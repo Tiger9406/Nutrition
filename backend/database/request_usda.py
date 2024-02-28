@@ -1,5 +1,4 @@
 import requests
-import json
 
 import os
 
@@ -21,4 +20,4 @@ def get_nutritional_info(ingredient_name):
 
 # everything's per 100 gram
 
-print(get_nutritional_info('apple'))
+# print(get_nutritional_info('apple'))
