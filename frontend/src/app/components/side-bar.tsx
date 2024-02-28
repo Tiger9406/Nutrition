@@ -6,7 +6,7 @@ interface SideBarProps {
 
 const SideBar: React.FC<SideBarProps> = ({ links }) => {
   return (
-    <div className="left-0 w-64 bg-gray-800 text-white p-4">
+    <div className="left-0 w-16 bg-gray-800 text-white p-4">
       <ul>
         {links.map((link, index) => (
           <li key={index}>{link}</li>
